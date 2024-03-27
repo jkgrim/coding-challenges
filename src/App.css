@@ -1,43 +1,16 @@
-.todo-app {
-  font-family: Arial, sans-serif;
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 20px;
+.app {
+  font-family: sans-serif;
+  text-align: center;
 }
 
-input[type="text"] {
-  width: calc(100% - 70px);
-  padding: 8px;
-  margin-right: 10px;
-}
-
-button {
-  padding: 8px 16px;
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-button.active {
-  background-color: #45a049;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  margin: 8px 0;
+.move-me {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
-.completed span {
-  text-decoration: line-through;
-}
-
-.delete-button {
-  margin-left: 10px;
+.color {
+  height: 50px;
+  width: 100px;
+  margin-left: 43%;
+  margin-bottom: 10px;
 }
