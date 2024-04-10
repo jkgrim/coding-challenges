@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import Counter from "./components/Counter";
 import Clock from "./components/Clock";
+import FontResize from "./components/FontResize";
 
 import "./App.css";
 
@@ -17,6 +18,8 @@ function App() {
         {mounted ? "Unmount" : "Mount"}
       </button>
       <hr />
+
+      <FontResize />
     </div>
   );
 }
