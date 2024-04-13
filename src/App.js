@@ -4,6 +4,7 @@ import Counter from "./components/Counter";
 import Clock from "./components/Clock";
 import FontResize from "./components/FontResize";
 import Greeting from "./components/Greeting";
+import HideMe from "./components/HideMe";
 
 import "./App.css";
 
@@ -22,6 +23,7 @@ function App() {
 
       <FontResize />
       <Greeting />
+      <HideMe />
     </div>
   );
 }
