@@ -5,6 +5,7 @@ import Clock from "./components/Clock";
 import FontResize from "./components/FontResize";
 import Greeting from "./components/Greeting";
 import HideMe from "./components/HideMe";
+import HtmlColor from "./components/HtmlColor";
 
 import "./App.css";
 
@@ -24,6 +25,7 @@ function App() {
       <FontResize />
       <Greeting />
       <HideMe />
+      <HtmlColor />
     </div>
   );
 }
