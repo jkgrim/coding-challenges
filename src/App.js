@@ -3,6 +3,7 @@ import { useState } from "react";
 import Counter from "./components/Counter";
 import Clock from "./components/Clock";
 import FontResize from "./components/FontResize";
+import Greeting from "./components/Greeting";
 
 import "./App.css";
 
@@ -20,6 +21,7 @@ function App() {
       <hr />
 
       <FontResize />
+      <Greeting />
     </div>
   );
 }
