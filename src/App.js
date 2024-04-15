@@ -6,6 +6,7 @@ import FontResize from "./components/FontResize";
 import Greeting from "./components/Greeting";
 import HideMe from "./components/HideMe";
 import HtmlColor from "./components/HtmlColor";
+import Positioner from "./components/Positioner";
 
 import "./App.css";
 
@@ -26,6 +27,7 @@ function App() {
       <Greeting />
       <HideMe />
       <HtmlColor />
+      <Positioner />
     </div>
   );
 }
