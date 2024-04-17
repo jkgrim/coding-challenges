@@ -7,6 +7,7 @@ import Greeting from "./components/Greeting";
 import HideMe from "./components/HideMe";
 import HtmlColor from "./components/HtmlColor";
 import Positioner from "./components/Positioner";
+import RgbSliders from "./components/RgbSliders";
 
 import "./App.css";
 
@@ -28,6 +29,7 @@ function App() {
       <HideMe />
       <HtmlColor />
       <Positioner />
+      <RgbSliders />
     </div>
   );
 }
